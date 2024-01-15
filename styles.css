@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 0px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    background-color: #007bff;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  main {
+    margin: 50px 0;
+  }
+  
+  main-content {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  li ul {
+    margin-left: 20px;
+  }
+  
+  li strong {
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #2196F3;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 150px; /* Adjust the width as needed */
+    margin-right: 20px;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+li em {
+    color: #666;
+}
+
+
+.course {
+  margin: 20px;
+  text-align: center;
+  margin-bottom: 5em; /* Adjust the value to control the space between courses */
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+  max-width: 160px;
+  display: block;
+  margin-bottom: 60px;
+  margin-left: center;
+}
+
